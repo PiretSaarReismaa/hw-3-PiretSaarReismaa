@@ -2,8 +2,7 @@
 title: "dplyr filter homework"
 author: "Piret Saar-Reismaa"
 date: "2019-03-12"
-output: 
-    github_document: default
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
