@@ -45,7 +45,7 @@ filter(viruses, subgroup == "Papillomaviridae")
 - are from plants and environment
 
 ```{r}
-filter(viruses, host == "plants"| host== "environment")
+filter(viruses,host == "plants"| host== "environment")
 ```
 
 - were released between 01. January 1980 - 01. January 1990, including these days:
@@ -72,6 +72,6 @@ filter(viruses, between(size_kb,1,2))
 
 Hint: use str_detect()
 ```{r}
-filter(viruses, str_detect(organism_name, "Enterovirus"))
+filter(viruses, str_detect(organism_name, ".nterovirus"))
 ```
 
